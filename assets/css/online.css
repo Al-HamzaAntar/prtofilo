@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    ::selection{
+        background-color: red;
+    }
+    
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.container{
+    background-color: orange;
+    padding: 40px;
+    border-radius: 0% 100% 90% 100% / 100% 100% 100% 100% ;
+    /**/
+    display: none;
+    color: red;
+    /* font-size: 16px; */
+    /**/
+}
+.title{
+    font-size: 30px;
+}
+ul{
+    position: relative;
+    left: 30px;
+    color: #fff;
+}
+.reload{
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 0% 100% 90% 100% / 100% 100% 100% 100% ;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+/* update here */
+body {
+    display: block;
+}
+.hide-content body {
+    display: none;
+}
+/* 
+ <style>
+        .error-message {
+            display: none;
+            color: red;
+            font-size: 20px;
+            text-align: center;
+        }
+        .content {
+            display: block;
+        }
+        .hide-content .content {
+            display: none;
+        }
+    </style>
+*/
